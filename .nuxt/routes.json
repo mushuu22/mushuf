@@ -1,5 +1,12 @@
 [
   {
+    "name": "members",
+    "path": "/members",
+    "component": "/Users/masashi-oki/nuxt_sandox/pages/members/index.vue",
+    "chunkName": "pages/members/index",
+    "_name": "_07556a74"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/masashi-oki/nuxt_sandox/pages/index.vue",
