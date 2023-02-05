@@ -1,4 +1,9 @@
 # nuxt_sandox
+## 開発環境構築
+- [こちらのページ](https://uk-holdings.atlassian.net/wiki/spaces/newEmployeePractice/pages/171442494/frontend)を参考に進めましょう。わからなかったらSlackなどで先輩に聞くこと！
+  - 上記ページを権限がなく開けない場合も先輩に連絡しましょう。
+
+↓はnuxtで作った際に記載される情報です。興味がある方はみてください。
 
 ## Build Setup
 
