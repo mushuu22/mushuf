@@ -23,15 +23,15 @@ export const routerOptions = {
   routes: [{
     path: "/tasks/new",
     component: _44f3ba2a,
-    name: "tasks-new"
+    name: "tasksNew"
   }, {
-    path: "/tasks/taskDetails",
+    path: "/tasks/:id",
     component: _14f13f45,
-    name: "tasks-details"
+    name: "tasksDetails"
   }, {
     path: "/tasks/:id/edit",
     component: _0fa5b7e1,
-    name: "task-update-delete"
+    name: "taskUpdateDelete"
   }, {
     path: "/",
     component: _92ce52ca,

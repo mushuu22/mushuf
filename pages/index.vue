@@ -29,7 +29,7 @@
          <tr v-for="task in filteredTasks" :key="task.id">
            <td>{{ task.id }}</td>
            <td>
-             <router-link :to="{ name: 'tasks-details', params: { id: task.id } }">{{ task.title }}</router-link>
+             <router-link :to="{ name: 'tasksDetails', params: { id: task.id } }">{{ task.title }}</router-link>
            </td>
            <td>{{ task.assignee }}</td>
            <td>{{ task.state }}</td>
