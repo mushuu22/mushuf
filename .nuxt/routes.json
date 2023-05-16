@@ -1,16 +1,30 @@
 [
   {
-    "name": "members",
-    "path": "/members",
-    "component": "/Users/masashi-oki/nuxt_sandox/pages/members/index.vue",
-    "chunkName": "pages/members/index",
-    "_name": "_07556a74"
+    "name": "tasks-new",
+    "path": "/tasks/new",
+    "component": "/Users/apple/Documents/GitHub/nuxt_sandbox/pages/tasks/new/index.vue",
+    "chunkName": "pages/tasks/new/index",
+    "_name": "_44f3ba2a"
+  },
+  {
+    "name": "tasks-taskDetails",
+    "path": "/tasks/taskDetails",
+    "component": "/Users/apple/Documents/GitHub/nuxt_sandbox/pages/tasks/taskDetails.vue",
+    "chunkName": "pages/tasks/taskDetails",
+    "_name": "_14f13f45"
+  },
+  {
+    "name": "tasks-taskUpdateDelete",
+    "path": "/tasks/taskUpdateDelete",
+    "component": "/Users/apple/Documents/GitHub/nuxt_sandbox/pages/tasks/taskUpdateDelete.vue",
+    "chunkName": "pages/tasks/taskUpdateDelete",
+    "_name": "_0fa5b7e1"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/masashi-oki/nuxt_sandox/pages/index.vue",
+    "component": "/Users/apple/Documents/GitHub/nuxt_sandbox/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_2b7f0b88"
+    "_name": "_92ce52ca"
   }
 ]

@@ -4,8 +4,10 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _07556a74 = () => interopDefault(import('../pages/members/index.vue' /* webpackChunkName: "pages/members/index" */))
-const _2b7f0b88 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _44f3ba2a = () => interopDefault(import('../pages/tasks/new/index.vue' /* webpackChunkName: "pages/tasks/new/index" */))
+const _14f13f45 = () => interopDefault(import('../pages/tasks/taskDetails.vue' /* webpackChunkName: "pages/tasks/taskDetails" */))
+const _0fa5b7e1 = () => interopDefault(import('../pages/tasks/taskUpdateDelete.vue' /* webpackChunkName: "pages/tasks/taskUpdateDelete" */))
+const _92ce52ca = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -19,12 +21,20 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/members",
-    component: _07556a74,
-    name: "members"
+    path: "/tasks/new",
+    component: _44f3ba2a,
+    name: "tasks-new"
+  }, {
+    path: "/tasks/taskDetails",
+    component: _14f13f45,
+    name: "tasks-details"
+  }, {
+    path: "/tasks/:id/edit",
+    component: _0fa5b7e1,
+    name: "task-update-delete"
   }, {
     path: "/",
-    component: _2b7f0b88,
+    component: _92ce52ca,
     name: "index"
   }],
 
